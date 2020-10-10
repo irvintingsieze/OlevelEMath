@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover_page1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.studentguide.android.olevelemath.my.studentguide.android.olevelemath.Secondary3.sec3_topics_learn">
+
+        <Button
+
+            android:id="@+id/quadd_eqn1"
+            style="@style/s3topic_name"
+            android:background="@drawable/round_rect"
+            android:text="QUADRATIC EQUATIONS AND FUNCTIONS"
+            android:onClick="quad_qn1"/>
+
+        <Button
+            android:id="@+id/linear_ineq2"
+            android:layout_below="@+id/quadd_eqn1"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="LINEAR INEQUALITIES"
+            android:onClick="linear_qn"/>
+
+        <Button
+            android:id="@+id/indices3"
+            style="@style/s3topic_name"
+            android:layout_below="@+id/linear_ineq2"
+            android:background="@drawable/round_rect"
+            android:text="INDICES AND STANDARD FORM" />
+
+        <Button
+            android:id="@+id/coordinate_geo4"
+            android:layout_below="@+id/indices3"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="COORDINATE GEOMETRY" />
+
+        <Button
+            android:id="@+id/graph_of_functions5"
+            style="@style/s3topic_name"
+            android:layout_below="@+id/coordinate_geo4"
+            android:background="@drawable/round_rect"
+            android:text="GRAPHS OF FUNCTIONS AND GRAPHICAL SOLUTIONS" />
+
+        <Button
+            android:id="@+id/further_trigo6"
+            android:layout_below="@+id/graph_of_functions5"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="FURTHER TRIGONOMETRY" />
+
+        <Button
+            android:id="@+id/app_trigo7"
+            android:layout_below="@+id/further_trigo6"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="APPLICATIONS OF TRIGONOMETRY" />
+
+        <Button
+            android:id="@+id/arc8"
+            style="@style/s3topic_name"
+            android:layout_below="@+id/app_trigo7"
+            android:background="@drawable/round_rect"
+            android:text="ARC LENGTH, AREA OF SECTOR AND RADIAN MEASURE" />
+
+        <Button
+            android:id="@+id/Cong_n_Similarity9"
+            android:layout_below="@+id/arc8"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="Congruence and Similarity Tests" />
+
+        <Button
+            android:id="@+id/area_n_volume_of_sim10"
+            android:layout_below="@+id/Cong_n_Similarity9"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="AREA AND VOLUME OF SIMILAR FIGURES AND SOLIDS" />
+
+        <Button
+            android:id="@+id/geo_circle11"
+            android:layout_below="@+id/area_n_volume_of_sim10"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="GEOMETRICAL PROPERTIES OF CIRCLES" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

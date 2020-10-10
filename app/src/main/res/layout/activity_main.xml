@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cover_page1"
+    tools:context="my.studentguide.android.olevelemath.MainActivity">
+
+    <ImageView
+        android:src="@drawable/emath_word1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <ImageButton
+        android:id="@+id/secondary3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sec_3icon"
+        android:onClick="sec3Selection"/>
+
+    <ImageButton
+        android:id="@+id/secondary4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sec_4icon"
+        android:onClick="sec4Selection"/>
+
+
+
+
+</LinearLayout>

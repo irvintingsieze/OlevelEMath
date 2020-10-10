@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+    <link rel="stylesheet" href="file:///android_asset/mathscribe/jqmath-0.4.3.css">
+
+    <script src="file:///android_asset/mathscribe/jquery-1.4.3.min.js"></script>
+    <script src="file:///android_asset/mathscribe/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+    <script>M.MathPlayer = false; M.trustHtml = true;</script>
+
+    <title>Probability</title>
+</head>
+<body>
+
+<p>In this topic, we are going to learn how to <br/>
+    1. Possibility diagrams<br/>
+    2. Types of probability events<br/>
+    3. Probability tree diagram<br/>
+    4. Probability and sets<br/><br/>
+
+    Prerequisite: <br/>
+    The probability of an event A is denoted as P(A). <br/>
+    The probability of event A is $\text"P(A)" = \text"Possible outcomes for event A" / \text"All possible outcomes"$ <br/>
+
+</p><p><strong>1. Possibility diagrams</strong><br/><br/>
+
+    A possibility diagram is drawn when the event involves 2 requirements to be fulfilled.<br/><br/>
+    Eg Qsn 1 If someone rolled a 4 sided die twice, what are the chances it rolls 1? <br/>
+    <img src="file:///android_res/drawable/prob_diagram1.PNG" width="100%" /><br/><br/>
+
+    Using the possibility diagram, we can tell its $7/16$ at a glance with the diagram.<br/><br/>
+
+    The possibility diagram is also useful to ease calculation as shown below <br/>
+    Eg Qsn 2 If someone rolled Die A and B, what is the probability that the sum is 8? <br/>
+    <img src="file:///android_res/drawable/prob_diagram2.PNG" width="100%" /><br/>
+
+<p><strong>2.Types of probability events</strong><br/><br/>
+    1) "Either or" exclusive events<br/>
+    When an event occurs where there are 2 or more different outcomes, we can add the probabilities <br/>
+    Eg. P(roll a die showing 1 or 6) = P (die show 1) + P(die show 6) <br/><br/>
+    2) "Not event A"<br/>
+    When the question ask the probability of event A not occurring.<br/>
+    P(A') = 1- P(A)<br/><br/>
+    3) "Given that" events. <br/>
+    For any qsn that asks Event A given that event B occurs, apply this formula<br/>
+<center>$\text"P(A given B)" = \text"P(A and B)" / \text"P(B)"$</center><br/>
+Another way is using a probability tree diagram which will be discussed later. <br/><br/>
+4) Sequence of events<br/>
+If event B occurs after event A, then the probability of B occurring is <br/>
+P(A then B) = P(A) x P(B)<br/><br/>
+
+
+</p><p><strong> 3. Probability tree diagram</strong><br/><br/>
+    A probability tree diagram can be drawn to display a sequence of possible events.<br/><br/>
+
+    Eg. Tom have a bag of beans. In the bag, there is 1 blue bean, 2 red beans and 3 white beans.
+
+    Tom picked 2 beads, 1 after another.<br/>
+    a) What is the probability that Tom picked a blue bean on the first draw and red bean on the next draw?<br/>
+    b) What is the probability that Tom picked a red bean on second draw given that he picked he picked a blue bean on the first draw?<br/>
+
+    <img src="file:///android_res/drawable/prob_tree.PNG" width="100%" /><br/><br/>
+    With the probability tree diagram, we can see that <br/>(a)
+    P ( Blue bean then red bean) = $1/6 x 2/5 = 1/15$ <br/><br/>
+    (b) P ( Red bean given that he picked blue bean on 1st draw) = $2/5$ <br/>
+
+    We can conclude that as we assume that he already picked the blue bean. Therefore we just take the probability of the 2nd event. <br/><br/>
+
+<p><strong> 3. Probability and sets</strong><br/><br/>
+   Sets can also be represented as a probability. <br/>
+P (A and B) = $P (A ∪ B) = P (A) + P (B)$ <br/><br/>
+For a sequence of events, <br/>
+    P (A followed by B) = $P (A ∩ B) = P (A) x P(B)$ <br/>
+
+
+
+</body>
+</body>
+</html>

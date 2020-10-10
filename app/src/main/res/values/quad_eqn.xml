@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "quad_eqn_content">
+        In Secondary 3, we are going to learn 3 new methods to solve a quadratic equation
+        aX <sup><small> 2 </small></sup> + bX + c
+    \n1. Completing the Square
+    \n2. Using the formula
+    \n3. Graphical Method
+    \n\n<b>1.Completing the square</b>
+    \nFor a quadratic equation aX <sup><small> 2 </small></sup>+ bX + c = 0 where a, b and c are real numbers, find X.
+    \n\nStep 1: Bring the constant to the RHS by subtracting c to both sides.
+    \n\naX<sup><small> 2 </small></sup>+ bX = -c
+    \n\nStep 2: Make the coefficient of X<sup><small> 2 </small></sup> to be one by dividing the entire equation by a.
+    (Note: The coefficient is the number placed before an algebriac equation eg.X<sup><small> 2 </small></sup>)
+    \n\nX<sup><small> 2 </small></sup>+ <sup>b</sup>/<sub>a</sub>X = <sup>-c</sup>/<sub>a</sub>
+    \n\nStep 3: Add to both side a constant required to form a square on the LHS(Note: a constant is the number not attached to the variable)
+    \n\nX<sup><small> 2 </small></sup>+ <sup>b</sup>/<sub>a</sub>X +(<sup>b</sup>/<sub>2a</sub>)<sup><small> 2 </small></sup>= <sup>-c</sup>/<sub>a</sub> + (<sup>b</sup>/<sub>2a</sub>)<sup><small> 2 </small></sup>
+    \n\nStep 4: Form the square
+    \n\nStep 5: Square root both sides
+    \n\nStep 6: Isolate the X on the LHS
+
+    </string>
+    </resources>

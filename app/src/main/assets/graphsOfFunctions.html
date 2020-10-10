@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+    <link rel="stylesheet" href="file:///android_asset/mathscribe/jqmath-0.4.3.css">
+
+    <script src="file:///android_asset/mathscribe/jquery-1.4.3.min.js"></script>
+    <script src="file:///android_asset/mathscribe/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+    <script>M.MathPlayer = false; M.trustHtml = true;</script>
+
+    <title>Graphs of Functions and Graphical Solutions</title>
+</head>
+<body>
+
+<p>In this topic, we are going to learn how to <br/>
+    1. Recognise and draw graphs $Y=aX^n$ and $Y=ka^X$<br/>
+    2. Find the gradient of a curve by drawing a tangent and solving graphical problems<br/>
+
+</p><p><strong>1. Recognise the graphs $Y=aX^n$ and $Y=ka^X$</strong><br/><br/>
+
+    The graph of $Y=aX^3$<br/>
+
+    <img src="file:///android_res/drawable/graph3_tp5.PNG" width="100%" /><br/>
+
+    The graph of $Y=a/X$<br/>
+
+    <img src="file:///android_res/drawable/graph1_tp5.PNG" width="100%" /><br/>
+
+    The graph of $Y=a/X^2$<br/>
+
+    <img src="file:///android_res/drawable/graph2_tp5.PNG" width="100%" /><br/>
+
+    The graph of $Y=kA^x$
+
+    <img src="file:///android_res/drawable/exponentialgraph_tp5.PNG" width="100%" /><br/>
+
+
+    Tip: If you forget the shape of the graph, just substitute x values and sketch the graphs!<br/>
+
+<p><strong>2. Find the gradient of a curve by drawing a tangent and solving graphical problems</strong><br/><br/>
+    Q1. A new vehicle on experiment is set to move from point A to B in a straight line, which it reaches after 3s. The speed, s (Km/h) and time (s) follows a function $s=-3^3+3$.<br/>
+    (a) Draw a table to display the speed s where 0≤t≤3<br/>
+    (b) Using the scale 1cm to represent 0.5s in the horizontal axis and 1cm to represent 5km/h in the vertical axis, draw the graph
+    of s against t for 0≤t≤3<br/>
+    (c) Using the graph, calculate the acceleration at t=2s<br/>
+    (d) Using the graph, estimate the distance travelled when 2.5≤t≤3. Express your answer in metres<br/><br/>
+(a)<br/>
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+}
+</style>
+</p>
+<body>
+<table style="width:100%">
+    <tr>
+        <td>t(s)</td>
+        <td colspan="1">0</td>
+        <td colspan="1">1</td>
+        <td colspan="1">2</td>
+        <td colspan="1">3</td>
+
+    </tr>
+    <tr>
+        <td>s(Km/h)</td>
+        <td colspan="1">0</td>
+        <td colspan="1">2</td>
+        <td colspan="1">10</td>
+        <td colspan="1">30</td>
+
+    </tr>
+</table><br/>
+(b)<br/>
+<img src="file:///android_res/drawable/graphoffunctions_qsnlearn.PNG" width="100%" /><br/>
+(c) Acceleration is the rate at which velocity (speed) is changing. (Since the car is moving in a straight line, the velocity and speed is the same for this case<br/>
+Therefore, finding acceleration of t=2 is finding the gradient at t=2.<br/>
+To find the gradient at t=2, we draw a tangent. The space between the tangent and the curve should be equal before and after t=2s<br/>
+<img src="file:///android_res/drawable/graphoffunctions_tangent.PNG" width="100%" /><br/>
+Remember the gradient = = $\text"Difference in s value" / \text"Difference in t value"$<br/>
+The difference in s value = 17-3 = 14Km/h<br/>
+The difference in t value = 2.5-1.5=1s<br/>
+However the time and speed unit is not uniform. We can change the unit of time to complement the speed.<br/>
+1s = $1/60$min = $1/3600$h<br/>
+The acceleration at t=2 is  14 x $1/3600$=50400Km/$h^2$  <br/><br/>
+
+(d) Distance = speed X Time.<br/>
+Therefore to find the distance travelled, we calculate the area under the graph at 2.5≤t≤3<br/>
+The time difference = 0.5s = $1/7200$h<br/>
+Area under the graph = Area of trapezium= ${19+30}/2$X $1/7200$h = 0.003402(4sf)Km = 3.40m (3sf)<br/>
+Total distance traveled is 3.40m (3sf).
+
+
+
+</body>
+</body>
+</html>

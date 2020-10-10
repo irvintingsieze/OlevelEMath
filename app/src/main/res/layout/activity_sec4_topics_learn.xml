@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover_page1"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.studentguide.android.olevelemath.my.studentguide.android.olevelemath.Secondary3.sec3_topics_learn">
+
+        <Button
+
+            android:id="@+id/sets1"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="SETS"
+            android:onClick="s4_sets"/>
+
+        <Button
+            android:id="@+id/probability2"
+            android:layout_below="@+id/sets1"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="PROBABILITY"
+            android:onClick="s4_probability"/>
+
+        <Button
+            android:id="@+id/stats3"
+            android:layout_below="@+id/probability2"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="STATISTICS"
+            android:onClick="s4_stats"/>
+
+        <Button
+            android:id="@+id/matrices4"
+            android:layout_below="@+id/stats3"
+            android:background="@drawable/round_rect"
+            style="@style/s3topic_name"
+            android:text="MATRICES"
+            android:onClick="s4_matrix"/>
+
+        <Button
+            android:layout_below="@+id/matrices4"
+            android:background="@drawable/round_rect"
+            android:text="VECTORS"
+            style="@style/s3topic_name"
+            android:onClick="s4_vectors"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

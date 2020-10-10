@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+    <link rel="stylesheet" href="file:///android_asset/mathscribe/jqmath-0.4.3.css">
+
+    <script src="file:///android_asset/mathscribe/jquery-1.4.3.min.js"></script>
+    <script src="file:///android_asset/mathscribe/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+    <script>M.MathPlayer = false; M.trustHtml = true;</script>
+
+    <title>Probability</title>
+</head>
+<body>
+
+<p>In this topic, we are going to learn how to <br/>
+    1. Identifying Matrices <br/>
+    2. Addition and subtraction of Matrices<br/>
+    3. Multiplication of Matrices<br/>
+
+
+
+</p><p><strong>1. Identifying Matrices</strong><br/><br/>
+
+    Matrices can be used to solve questions where data can be represented in a table form. <br/>
+
+Eg Qsn1: 2 students John and Mary went to the bookstore to buy some stationary.
+    John bought a pencil, 2erasers and 3 pens while Mary bought 4 pencils, 5 pens and 6 erasers. <br/><br/>
+The following data can be represented in a table below. <br/>
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+    <h2>Table</h2>
+
+    <table>
+        <tr>
+            <th></th>
+            <th>Pencil</th>
+            <th>Eraser</th>
+            <th>Pen</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>4</td>
+            <td>6</td>
+            <td>5</td>
+        </tr>
+
+    </table><br/>
+
+
+The following table can also be represented in a matrix $(\table \1, \2, \3; \4, \6,\5 )$.<br/><br/>
+The numbers from going from left to right are called rows. The first row is 1,2,3.<br/>
+The numbers going from up to down are called columns. The first column is 1,4. <br/><br/>
+The size of the matrix can be represented by (rows) x (columns). In this case, it is a 2 x 3 matrix.<br/><br/>
+
+A row matrix is a matrix with only 1 row. Eg. ( 1 , 2 , 3 )<br/>
+A column matrix is a matrix with only 1 column. Eg. $(\table \1, \2, \3)$ <br/>
+
+</p><p><strong> 2. Addition and subtraction of Matrices</strong><br/><br/>
+    Matrices can be added or subtracted ONLY if they are of the same size. <br/>
+    A 3 x 3 matrix can only be added by another 3 x 3 matrix and so on.<br/><br/>
+
+    To add the matrices, we just have to add the numbers of the matrices in the same position.<br/>
+    Eg. $(\table \1, \2, \3; \4, \5,\6 )$ + $(\table \2, \3, \4; \5, \6,\7 )$ = $(\table \3, \5, \7; \9, \11,\13 )$ <br/><br/>
+    The same goes for subtraction.
+    Eg. $(\table \10, \9, \8; \7, \6,\5 )$ - $(\table \1, \2, \3; \4, \5,\6 )$ = $(\table \9, \7, \5; \3, \1,\-1 )$<br/><br/>
+
+
+<p><strong> 3. Multiplication of Matrices</strong><br/><br/>
+Matrix can be multiplied in 2 ways, by a number of by another matrix. <br/><br/>
+To multiply a matrix by a number, one simply multiply the number to all of the values in the matrix. <br/>
+
+Eg. If a = $(\table \1, \2, \3; \4, \5,\6 )$ , 3a = $(\table \3, \6, \9; \12, \15,\18 )$ <br/><br/>
+
+To multiply matrices, the number of column of the 1st matrix MUST be equal to the number of rows in the 2nd matrix. <br/>
+The resulting matrix will have the number of rows of the 1st matrix and the number of columns in the 2nd matrix <br/>
+Eg. A 2 x 3 matrix can multiply a 3 x 2 matrix  but not a 2 x 3 matrix. <br/><br/>
+
+To multiply matrices, one must find the add the product of all the rows with all columns.
+    The 1st row must multiply all the column first before going on to the second row. <br/>
+
+An example will be $(\table \1, \2, \3; \4, \5,\6 )$ x $(\table \1, \2; \3, \4; \5,\6 )$ = $(\table \22, \28; \49, \64)$<br/><br/>
+ 1 x 1 + 2 x 3 + 3 x 5 = 22<br/>
+ 1 x 2 + 2 x 4 + 3 x 6 = 28<br/>
+ 4 x 1 + 5 x 3 + 6 x 5 = 49<br/>
+ 4 x 2 + 5 x 4 + 6 x 6 = 64<br/>
+Thus the resulting matrix is  $(\table \22, \28; \49, \64)$. <br/><br/>
+
+
+</body>
+</body>
+</html>
